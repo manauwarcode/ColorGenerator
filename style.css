@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.box{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.btnContainer{
+    display: flex;
+}
+
+.btnContainer button{
+    margin-right: 10px;
+}
+
+
+button{
+    height: 100px;
+    width: 200px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 400;
+    border-radius: 10px;
+    font-size: 20px;
+    margin-bottom: 50px;
+    border: 2px solid black;
+}
+
+.hexCode{
+    margin-bottom: 50px;
+    font-family: 'Popins',sans-serif;
+    font-size: 100px;
+    font-weight: bolder;
+}
